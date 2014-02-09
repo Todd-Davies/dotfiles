@@ -380,4 +380,4 @@ client.add_signal("unfocus", function(c) c.border_color = beautiful.border_norma
 awful.util.spawn("chromium-browser")
 awful.util.spawn("blueman-applet")
 awful.util.spawn("dropbox start")
-awful.util.spawn("nuvolaplayer")
+-- awful.util.spawn("nuvolaplayer")
