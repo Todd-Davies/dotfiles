@@ -4,22 +4,36 @@
 
 theme = {}
 
-theme.font          = "sans 8"
+theme.font          = "Terminus 8"
 
-theme.bg_normal     = "#222222"
-theme.bg_focus      = "#535d6c"
-theme.bg_urgent     = "#ff0000"
-theme.bg_minimize   = "#444444"
-
-theme.fg_normal     = "#aaaaaa"
-theme.fg_focus      = "#ffffff"
-theme.fg_urgent     = "#ffffff"
-theme.fg_minimize   = "#ffffff"
-
-theme.border_width  = "1"
-theme.border_normal = "#000000"
-theme.border_focus  = "#535d6c"
-theme.border_marked = "#91231c"
+theme.menu_bg_normal                = "#000000"
+theme.menu_bg_focus                 = "#000000"
+theme.bg_normal                     = "#000000"
+theme.bg_focus                      = "#000000"
+theme.bg_urgent                     = "#000000"
+theme.fg_normal                     = "#aaaaaa"
+theme.fg_focus                      = "#ff8c00"
+theme.fg_urgent                     = "#af1d18"
+theme.fg_minimize                   = "#ffffff"
+theme.fg_black                      = "#424242"
+theme.fg_red                        = "#ce5666"
+theme.fg_green                      = "#80a673"
+theme.fg_yellow                     = "#ffaf5f"
+theme.fg_blue                       = "#7788af"
+theme.fg_magenta                    = "#94738c"
+theme.fg_cyan                       = "#778baf"
+theme.fg_white                      = "#aaaaaa"
+theme.fg_blu                        = "#8ebdde"
+theme.border_width                  = "1"
+theme.border_normal                 = "#1c2022"
+theme.border_focus                  = "#606060"
+theme.border_marked                 = "#3ca4d8"
+theme.menu_width                    = "110"
+theme.menu_border_width             = "0"
+theme.menu_fg_normal                = "#aaaaaa"
+theme.menu_fg_focus                 = "#ff8c00"
+theme.menu_bg_normal                = "#050505dd"
+theme.menu_bg_focus                 = "#050505dd"
 
 -- There are other variable sets
 -- overriding the default one when
@@ -75,9 +89,7 @@ theme.titlebar_maximized_button_focus_active  = "/usr/share/awesome/themes/defau
 
 -- You can use your own command to set your wallpaper
 -- theme.wallpaper_cmd = { "awsetbg /usr/share/awesome/themes/default/background.png" }
--- theme.wallpaper_cmd = { "awsetbg /home/td/wallpapers/jan-14-cool-winter-nocal-2880x1800.jpg" }
--- theme.wallpaper_cmd = { "nitrogen --restore &" }
-theme.wallpaper_cmd = { "/home/td/scripts/laptop/setup_screens_config_2.sh" }
+theme.wallpaper_cmd = { "awsetbg /home/td/wallpapers/jan-14-cool-winter-nocal-2880x1800.jpg" }
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = "/usr/share/awesome/themes/default/layouts/fairhw.png"
