@@ -4,4 +4,4 @@ alias sl=ls
 alias setup=~/scripts/setup/choose.sh
 alias chrome=chromium-browser
 alias LS=ls
-aliasclipoard="xclip -selection clipboard"
+alias clipoard="xclip -selection clipboard"
