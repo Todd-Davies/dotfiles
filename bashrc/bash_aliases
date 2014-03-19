@@ -2,3 +2,6 @@ alias vol="pactl set-sink-volume 0"
 alias eclipse="~/applications/eclipse/eclipse"
 alias sl=ls
 alias setup=~/scripts/setup/choose.sh
+alias chrome=chromium-browser
+alias LS=ls
+aliasclipoard="xclip -selection clipboard"
