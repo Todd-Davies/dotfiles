@@ -1,7 +1,8 @@
-alias vol="pactl set-sink-volume 0"
+#alias vol="pactl set-sink-volume 0"
 alias eclipse="~/applications/eclipse/eclipse"
 alias sl=ls
 alias setup=~/scripts/setup/choose.sh
 alias chrome=chromium-browser
 alias LS=ls
 alias clipoard="xclip -selection clipboard"
+alias lock="gnome-screensaver-command -l"
