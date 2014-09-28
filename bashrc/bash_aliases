@@ -6,3 +6,4 @@ alias chrome=chromium-browser
 alias LS=ls
 alias clipoard="xclip -selection clipboard"
 alias lock="gnome-screensaver-command -l"
+alias ewa=~/scripts/bash/ewa.sh
