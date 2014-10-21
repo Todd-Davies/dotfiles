@@ -8,3 +8,6 @@ alias clipoard="xclip -selection clipboard"
 alias lock="gnome-screensaver-command -l"
 alias ewa=~/scripts/bash/ewa.sh
 alias pushAll=~/scripts/git/push_master_all_remotes.git
+alias build_remote="~/dev/remote_compile/env/bin/python 
+~/dev/remote_compile/remote_compile.py"
+

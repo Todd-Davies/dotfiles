@@ -382,9 +382,3 @@ end)
 client.add_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 client.add_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
-
-awful.util.spawn("blueman-applet")
-awful.util.spawn("dropbox start")
-awful.util.spawn("xcompmgr -c -C -t-5 -l-5 -r4.2 -o.2")
-awful.util.spawn("/home/td/scripts/laptop/setup_screens_config_2.sh")
--- awful.util.spawn("nuvolaplayer")
