@@ -10,3 +10,5 @@ alias ewa=~/scripts/bash/ewa.sh
 alias pushAll=~/scripts/git/push_master_all_remotes.git
 alias build_remote="~/dev/remote_compile/env/bin/python ~/dev/remote_compile/remote_compile.py"
 alias matlab="/usr/local/MATLAB/R2014a/bin/matlab -c /usr/local/MATLAB/R2014a/licenses/license_td_405329_R2014a.lic"
+alias listBackups="~/scripts/git/list_backups.sh"
+alias sig="~/scripts/signature/application.linux32/signature"
