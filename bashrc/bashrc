@@ -109,3 +109,4 @@ fi
 
 export PATH=~/applications/sbt/bin:$PATH
 export SBT_OPTS="-Xdebug -Xnoagent -Djava.coiler=NONE -Xrunjdwp:transport=dt_socket,address=5005,server=y,suspend=n"
+nitrogen --restore
